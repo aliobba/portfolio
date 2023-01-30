@@ -21,7 +21,7 @@ jobs:
         run: npm install && npm run build
 
       - name: Deploy
-        uses: aliobba/portfolio@1.0.0
+        uses: aliobba/portfolio@master
         with:
           branch: gh-pages # The branch the action should deploy to.
           folder: build # The folder the action should deploy.
