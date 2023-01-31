@@ -18,12 +18,12 @@ jobs:
     steps:
       - name: Checkout Code
         uses: actions/checkout@v2
-      - name: Install node 16
+      - name: Install node 18
         uses: actions/setup-node@v1
         with:
-          node-version: 16.x
+          node-version: 18.x
       - name: Install NPM Dependencies
-        run: npm i --force
+        run: npm i
       - name: Build Project
         run: npm run build
       - name: Upload artifact in order to deploy
