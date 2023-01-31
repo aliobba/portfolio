@@ -38,7 +38,7 @@ function NavBar() {
       className={navColour ? "sticky" : "navbar"}
     >
       <Container>
-        <Navbar.Brand href="/">
+        <Navbar.Brand href="/portfolio/">
           <img src={logo} className="img-fluid logo" alt="brand" />
         </Navbar.Brand>
         <Navbar.Toggle
@@ -54,7 +54,7 @@ function NavBar() {
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="ml-auto" defaultActiveKey="#home">
             <Nav.Item>
-              <Nav.Link as={Link} to="/" onClick={() => updateExpanded(false)}>
+              <Nav.Link as={Link} to="/portfolio/" onClick={() => updateExpanded(false)}>
                 <AiOutlineHome style={{ marginBottom: "2px" }} /> Accueil
               </Nav.Link>
             </Nav.Item>
@@ -62,7 +62,7 @@ function NavBar() {
             <Nav.Item>
               <Nav.Link
                 as={Link}
-                to="/about"
+                to="/portfolio/about"
                 onClick={() => updateExpanded(false)}
                 eventKey="disabled" disabled
               >
@@ -74,7 +74,7 @@ function NavBar() {
             <Nav.Item>
               <Nav.Link
                 as={Link}
-                to="/project"
+                to="/portfolio/project"
                 onClick={() => updateExpanded(false)}
                 eventKey="disabled" disabled
               >
@@ -88,7 +88,7 @@ function NavBar() {
             <Nav.Item>
               <Nav.Link
                 as={Link}
-                to="/resume"
+                to="/portfolio/resume"
                 onClick={() => updateExpanded(false)}
                 eventKey="disabled" disabled
               >
