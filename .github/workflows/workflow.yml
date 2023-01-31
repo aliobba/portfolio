@@ -14,16 +14,17 @@ jobs:
     name: Build
     # The OS to run the job on
     runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        node-version: [14.x, 16.x, 18.x]
+        # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
     # Steps
     steps:
       - name: Checkout Code
-        uses: actions/checkout@v2
-      - name: Install node 18
-        uses: actions/setup-node@v1
-        with:
-          node-version: 18.x
+        uses: actions/checkout@v3
       - name: Install NPM Dependencies
-        run: npm i --force
+        run: npm i
       - name: Build Project
         run: npm run build
       - name: Upload artifact in order to deploy
