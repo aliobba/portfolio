@@ -15,12 +15,12 @@ import ScrollToTop from "./components/ScrollToTop";
 
 function App() {
   const [load, upadateLoad] = useState(true);
-  
+
   useEffect(() => {
     const timer = setTimeout(() => {
       upadateLoad(false);
     }, 1200);
-    
+
     return () => clearTimeout(timer);
   }, []);
 
@@ -31,10 +31,35 @@ function App() {
         <Navbar />
         <ScrollToTop />
         <Switch>
-          <Route path="/portfolio/" exact component={Home} />
-          <Route path="/portfolio/project" component={Projects} />
-          <Route path="/portfolio/about" component={About} />
-          <Route path="/portfolio/resume" component={Resume} />
+          <Route
+            path={process.env.NODE_ENV === "development" ? "/" : "/portfolio/"}
+            exact
+            component={Home}
+          />
+          <Route
+            path={
+              process.env.NODE_ENV === "development"
+                ? "/project"
+                : "/portfolio/project"
+            }
+            component={Projects}
+          />
+          <Route
+            path={
+              process.env.NODE_ENV === "development"
+                ? "/about"
+                : "/portfolio/about"
+            }
+            component={About}
+          />
+          <Route
+            path={
+              process.env.NODE_ENV === "development"
+                ? "/resume"
+                : "/portfolio/resume"
+            }
+            component={Resume}
+          />
         </Switch>
         <Footer />
       </div>

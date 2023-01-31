@@ -38,7 +38,9 @@ function NavBar() {
       className={navColour ? "sticky" : "navbar"}
     >
       <Container>
-        <Navbar.Brand href="/portfolio/">
+        <Navbar.Brand
+          href={process.env.NODE_ENV === "development" ? "/" : "/portfolio/"}
+        >
           <img src={logo} className="img-fluid logo" alt="brand" />
         </Navbar.Brand>
         <Navbar.Toggle
@@ -54,7 +56,15 @@ function NavBar() {
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="ml-auto" defaultActiveKey="#home">
             <Nav.Item>
-              <Nav.Link as={Link} to="/portfolio/" onClick={() => updateExpanded(false)}>
+              <Nav.Link
+                as={Link}
+                to={
+                  process.env.NODE_ENV === "development"
+                    ? "/resume"
+                    : "/portfolio/resume"
+                }
+                onClick={() => updateExpanded(false)}
+              >
                 <AiOutlineHome style={{ marginBottom: "2px" }} /> Accueil
               </Nav.Link>
             </Nav.Item>
@@ -62,21 +72,30 @@ function NavBar() {
             <Nav.Item>
               <Nav.Link
                 as={Link}
-                to="/portfolio/about"
+                to={
+                  process.env.NODE_ENV === "development"
+                    ? "/about"
+                    : "/portfolio/about"
+                }
                 onClick={() => updateExpanded(false)}
-                eventKey="disabled" disabled
+                eventKey="disabled"
+                disabled
               >
                 <AiOutlineUser style={{ marginBottom: "2px" }} /> À-propos
-
               </Nav.Link>
             </Nav.Item>
 
             <Nav.Item>
               <Nav.Link
                 as={Link}
-                to="/portfolio/project"
+                to={
+                  process.env.NODE_ENV === "development"
+                    ? "/project"
+                    : "/portfolio/project"
+                }
                 onClick={() => updateExpanded(false)}
-                eventKey="disabled" disabled
+                eventKey="disabled"
+                disabled
               >
                 <AiOutlineFundProjectionScreen
                   style={{ marginBottom: "2px" }}
@@ -88,11 +107,17 @@ function NavBar() {
             <Nav.Item>
               <Nav.Link
                 as={Link}
-                to="/portfolio/resume"
+                to={
+                  process.env.NODE_ENV === "development"
+                    ? "/resume"
+                    : "/portfolio/resume"
+                }
                 onClick={() => updateExpanded(false)}
-                eventKey="disabled" disabled
+                eventKey="disabled"
+                disabled
               >
-                <CgFileDocument style={{ marginBottom: "2px" }} /> curriculum vitae
+                <CgFileDocument style={{ marginBottom: "2px" }} /> curriculum
+                vitae
               </Nav.Link>
             </Nav.Item>
 
