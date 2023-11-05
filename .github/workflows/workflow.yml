@@ -45,7 +45,7 @@ jobs:
           name: production-files
           path: ./build
       - name: Deploy to GitHub Pages
-        uses: aliobba/portfolio@v0.1
+        uses: aliobba/portfolio/.github/actions/setup-composite@v0
         with:
           github_token: ${{ secrets.GH_ACCESS_TOKEN }}
           publish_dir: ./build
