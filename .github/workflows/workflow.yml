@@ -45,7 +45,7 @@ jobs:
           name: production-files
           path: ./build
       - name: Deploy to gh pages
-        uses: ./.github/actions/setup-composite/action.yml
+        uses: aliobba/portfolio/.github/actions/setup-composite/action.yml
         with:
           github_token: ${{ secrets.GH_ACCESS_TOKEN }}
           publish_dir: ./build
