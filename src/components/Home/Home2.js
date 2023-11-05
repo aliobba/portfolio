@@ -20,23 +20,30 @@ function Home2() {
               {/* LET ME <span className="purple"> INTRODUCE </span> MYSELF */}
             </h1>
             <p className="home-about-body">
-            la programmation coule dans mes veines et j'ai au moins réalisé quelque chose, je pense… 🤷‍♂️
+              Yo, la prog, c'est mon vibe, j'ai des prouesses à la pelle, tu
+              peux me croire, ouais... 🤷‍♂️
               <br />
-              <br />Je suis fluide avec les langages classiques comme
+              <br />
+              Je déchire en{" "}
               <i>
-                <b className="purple"> Javascript, PHP and C++. </b>
-              </i>
+                <b className="purple">JavaScript, PHP et JAVA,</b>
+              </i>{" "}
+              mon flow est impeccable, mec, j'te le dis sans détour.
               <br />
               <br />
-              je m'intéresse à la création, l'analyse et la production du contenu &nbsp;
-              <b className="purple">web et mobile</b> 
+              Création, analyse, prod' de contenu web et mobile, ça me chauffe,
+              mec, ça m'fait palpiter. &nbsp;
+              <b className="purple">web et mobile</b>
               <br />
               <br />
-              Dans la mesure du possible, j'applique également ma passion pour le développement
-               avec <b className="purple">Node.js</b> et <b className="purple">les frameworks Javascript modernes</b> tel que <b className="purple">React.js</b>
-               <br />
-               <br />
-                 Ainsi que <b className="purple">React native, Android et IOS</b> vu mon cursus académique
+              J'représente <b className="purple">Node.js</b> et les frameworks
+              modernes, t'as capté ? <b className="purple">React.js</b>, c'est
+              mon style, j'fais le taf.
+              <br />
+              <br />
+              Et ouais, j'maîtrise aussi <b className="purple">React Native, Android et iOS,</b> checke mon
+              parcours, c'est du solide, mec, pas d'embrouilles.
+              vu mon cursus académique
               {/* Whenever possible, I also apply my passion for developing products
               with <b className="purple">Node.js</b> and
               <i>
@@ -61,7 +68,7 @@ function Home2() {
           <Col md={12} className="home-about-social">
             <h1>RETROUVEZ-MOI SUR</h1>
             <p>
-            N'hésitez pas à me <span className="purple">contacter</span>
+              N'hésitez pas à me <span className="purple">contacter</span>
             </p>
             <ul className="home-about-social-links">
               <li className="social-icons">

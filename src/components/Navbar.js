@@ -60,8 +60,8 @@ function NavBar() {
                 as={Link}
                 to={
                   process.env.NODE_ENV === "development"
-                    ? "/resume"
-                    : "/portfolio/resume"
+                    ? "/"
+                    : "/portfolio/"
                 }
                 onClick={() => updateExpanded(false)}
               >
@@ -69,7 +69,7 @@ function NavBar() {
               </Nav.Link>
             </Nav.Item>
 
-            <Nav.Item>
+            {/* <Nav.Item>
               <Nav.Link
                 as={Link}
                 to={
@@ -102,7 +102,7 @@ function NavBar() {
                 />{" "}
                 Projets
               </Nav.Link>
-            </Nav.Item>
+            </Nav.Item> */}
 
             <Nav.Item>
               <Nav.Link
@@ -113,8 +113,8 @@ function NavBar() {
                     : "/portfolio/resume"
                 }
                 onClick={() => updateExpanded(false)}
-                eventKey="disabled"
-                disabled
+                // eventKey="disabled"
+                // disabled
               >
                 <CgFileDocument style={{ marginBottom: "2px" }} /> curriculum
                 vitae

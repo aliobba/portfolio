@@ -251,7 +251,7 @@ html {
 }
 
 .home-header {
-  padding-top: 80px !important;
+  padding-top: 0px !important;
 }
 
 .home-section {
@@ -353,7 +353,9 @@ html {
 
 .home-social-icons {
   position: relative !important;
-  display: inline-block !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center;
   width: 40px !important;
   height: 40px !important;
   text-align: center !important;
