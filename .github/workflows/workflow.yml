@@ -45,7 +45,7 @@ jobs:
           name: production-files
           path: ./build
       - name: Deploy to gh pages
-        uses: aliobba/portfolio@v0
+        uses: aliobba/portfolio
         with:
           github_token: ${{ secrets.GH_ACCESS_TOKEN }}
           publish_dir: ./build
