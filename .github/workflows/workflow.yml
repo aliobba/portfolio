@@ -24,7 +24,7 @@ jobs:
       - name: Checkout Code
         uses: actions/checkout@v3
       - name: Install NPM Dependencies
-        run: npm i
+        run: npm i --force
       - name: Build Project
         run: npm run build
       - name: Upload artifact in order to deploy
