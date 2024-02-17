@@ -5,7 +5,7 @@ import Particle from "../Particle";
 import Resumecontent from "./ResumeContent";
 import axios from "axios";
 
-import pdf from "../../Assets/Pdf/Ali_OBBA_CV.pdf";
+import pdf from "../../Assets/Pdf/Ali_OBBA_CV_Fr_frontend.pdf";
 import { AiOutlineDownload } from "react-icons/ai";
 
 function Resume() {
