@@ -1,20 +1,20 @@
 {
   "files": {
     "main.css": "./static/css/main.8f41a0a8.chunk.css",
-    "main.js": "./static/js/main.9cd1e58d.chunk.js",
-    "main.js.map": "./static/js/main.9cd1e58d.chunk.js.map",
-    "runtime-main.js": "./static/js/runtime-main.c43bc8fc.js",
-    "runtime-main.js.map": "./static/js/runtime-main.c43bc8fc.js.map",
+    "main.js": "./static/js/main.17dbdc57.chunk.js",
+    "main.js.map": "./static/js/main.17dbdc57.chunk.js.map",
+    "runtime-main.js": "./static/js/runtime-main.ed4f8a19.js",
+    "runtime-main.js.map": "./static/js/runtime-main.ed4f8a19.js.map",
     "static/css/2.89e795e2.chunk.css": "./static/css/2.89e795e2.chunk.css",
-    "static/js/2.8952f2a8.chunk.js": "./static/js/2.8952f2a8.chunk.js",
-    "static/js/2.8952f2a8.chunk.js.map": "./static/js/2.8952f2a8.chunk.js.map",
-    "static/js/3.4d8b00dc.chunk.js": "./static/js/3.4d8b00dc.chunk.js",
-    "static/js/3.4d8b00dc.chunk.js.map": "./static/js/3.4d8b00dc.chunk.js.map",
+    "static/js/2.ba266983.chunk.js": "./static/js/2.ba266983.chunk.js",
+    "static/js/2.ba266983.chunk.js.map": "./static/js/2.ba266983.chunk.js.map",
+    "static/js/3.8fb31d89.chunk.js": "./static/js/3.8fb31d89.chunk.js",
+    "static/js/3.8fb31d89.chunk.js.map": "./static/js/3.8fb31d89.chunk.js.map",
     "index.html": "./index.html",
     "static/css/2.89e795e2.chunk.css.map": "./static/css/2.89e795e2.chunk.css.map",
     "static/css/main.8f41a0a8.chunk.css.map": "./static/css/main.8f41a0a8.chunk.css.map",
-    "static/js/2.8952f2a8.chunk.js.LICENSE.txt": "./static/js/2.8952f2a8.chunk.js.LICENSE.txt",
-    "static/media/Ali_OBBA_CV_Fr.12f22ccd.pdf": "./static/media/Ali_OBBA_CV_Fr.12f22ccd.pdf",
+    "static/js/2.ba266983.chunk.js.LICENSE.txt": "./static/js/2.ba266983.chunk.js.LICENSE.txt",
+    "static/media/Ali_OBBA_CV_Fr_frontend.1e080b62.pdf": "./static/media/Ali_OBBA_CV_Fr_frontend.1e080b62.pdf",
     "static/media/about.aee0f771.png": "./static/media/about.aee0f771.png",
     "static/media/avatar.2c59b742.png": "./static/media/avatar.2c59b742.png",
     "static/media/blog.52102140.png": "./static/media/blog.52102140.png",
@@ -28,10 +28,10 @@
     "static/media/suicide.b72f1f9f.png": "./static/media/suicide.b72f1f9f.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.c43bc8fc.js",
+    "static/js/runtime-main.ed4f8a19.js",
     "static/css/2.89e795e2.chunk.css",
-    "static/js/2.8952f2a8.chunk.js",
+    "static/js/2.ba266983.chunk.js",
     "static/css/main.8f41a0a8.chunk.css",
-    "static/js/main.9cd1e58d.chunk.js"
+    "static/js/main.17dbdc57.chunk.js"
   ]
 }
