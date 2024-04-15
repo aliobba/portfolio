@@ -6,6 +6,7 @@ import About from "./components/About/About";
 import Projects from "./components/Projects/Projects";
 import Footer from "./components/Footer";
 import Resume from "./components/Resume/ResumeNew";
+import ConfidentialPolicy from "./components/Confidential Policy/ConfidentialPolicy"
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import "./style.css";
 import "./App.css";
@@ -59,6 +60,14 @@ function App() {
                 : "/portfolio/resume"
             }
             component={Resume}
+          />
+          <Route
+            path={
+              process.env.NODE_ENV === "development"
+                ? "/confidential-policy"
+                : "/portfolio/confidential-policy"
+            }
+            component={ConfidentialPolicy}
           />
         </Switch>
         <Footer />
