@@ -1,3 +1,4 @@
+
 import React from "react";
 import { Container, Col } from "react-bootstrap";
 
@@ -9,56 +10,54 @@ function ConfidentialPolicy() {
                 <Container className="resume-content">
                     <Col className="home-about-description">
                         <h1 style={{ fontSize: "2.6em" }}>
-                            Politique de confidentialité
-
+                            Privacy Policy
                         </h1>
                         <p className="home-about-body">
                             <i>
-                                <b className="purple">1. Aucune collecte de données</b>
+                                <b className="purple">1. No Data Collection</b>
                             </i>{" "}
 
                             <br />
                             <br />
-                            Nous tenons à vous informer que nous ne collectons aucune donnée personnelle des utilisateurs de notre application. Vous pouvez utiliser notre application en toute confiance, sachant que votre vie privée est préservée.
+                            We would like to inform you that we do not collect any personal data from users of our application. You can use our application with confidence, knowing that your privacy is preserved.
                             <br />
                             <br />
                             <i>
-                                <b className="purple">2. Utilisation de l'application</b>
+                                <b className="purple">2. Application Usage</b>
                             </i>{" "}
 
                             <br />
                             <br />
-                            Bien que nous ne collections aucune donnée personnelle, veuillez noter que certaines fonctionnalités de l'application peuvent nécessiter l'accès à certaines informations de votre appareil, telles que l'accès à la caméra pour prendre des photos ou à la localisation pour des fonctionnalités basées sur la géolocalisation. Ces informations restent sur votre appareil et ne sont pas transmises à notre application ou à des tiers.
+                            While we do not collect any personal data, please note that some features of the application may require access to certain information on your device, such as camera access for taking photos or location access for location-based features. This information remains on your device and is not transmitted to our application or to third parties.
                             <br />
                             <br />
                             <i>
-                                <b className="purple">3. Sécurité des données</b>
+                                <b className="purple">3. Data Security</b>
                             </i>{" "}
 
                             <br />
                             <br />
-                            Même si aucune donnée personnelle n'est collectée, nous prenons tout de même des mesures pour garantir la sécurité de votre utilisation de l'application. Nous utilisons des méthodes de sécurité standard pour protéger l'intégrité de l'application et assurer une expérience utilisateur sécurisée.
+                            Even though no personal data is collected, we still take measures to ensure the security of your use of the application. We use standard security methods to protect the integrity of the application and ensure a secure user experience.
                             <br />
                             <br />
                             <i>
-                                <b className="purple">4. Modifications de cette politique</b>
+                                <b className="purple">4. Changes to This Policy</b>
                             </i>{" "}
 
                             <br />
                             <br />
-                            Nous nous réservons le droit de mettre à jour cette politique de confidentialité à tout moment. Nous vous recommandons de consulter régulièrement cette page pour prendre connaissance des éventuelles modifications. Les modifications apportées à cette politique de confidentialité entrent en vigueur dès leur publication sur cette page.
+                            We reserve the right to update this privacy policy at any time. We recommend that you regularly review this page to stay informed of any changes. Changes to this privacy policy are effective immediately upon being posted on this page.
                             <br />
                             <br />
                             <i>
-                                <b className="purple">5. Nous contacter</b>
+                                <b className="purple">5. Contact Us</b>
                             </i>{" "}
 
                             <br />
                             <br />
-                            Si vous avez des questions ou des préoccupations concernant cette politique de confidentialité, veuillez nous contacter à ultras_007@hotmail.com .
+                            If you have any questions or concerns about this privacy policy, please contact us at ultras_007@hotmail.com.
                             <br />
                             <br />
-
                         </p>
                     </Col>
                 </Container>
